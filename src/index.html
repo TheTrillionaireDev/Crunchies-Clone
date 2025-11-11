@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="">
+    <!--The Header section starts here-->
+    <header class="flex justify-around items-center h-[15vh] bg-white sticky top-0 z-100 ">
+        <div class="flex items-center gap-2">
+            <img src="/image/logo-white.webp" alt="Crunches Logo" width="100" hieght="100">
+            <span>
+                <i class="bi bi-geo-alt text-red-500"></i>
+            </span>
+            <p>Set Location</p>
+        </div>
+        <nav class="lg:flex gap-5 text-lg/9 hidden">
+            <a href="#" class="hover:bg-gray-100 text-red-500 p-2 hover:rounded-xl">Home</a>
+            <a href="#" class="hover:bg-gray-100 hover:text-red-500 p-2 rounded-xl">Menu</a>
+            <a href="#" class="hover:bg-gray-100 hover:text-[red] p-2 rounded-xl">Offers</a>
+            <a href="#" class="hover:bg-gray-100 hover:text-[red] p-2 rounded-xl">Fanclub</a>
+            <a href="#" class="hover:bg-gray-100 hover:text-[red] p-2 rounded-xl">Blog</a>
+            <a href="#" class="hover:bg-gray-100 hover:text-[red] p-2 rounded-xl">About Us</a>
+            <a href="#" class="hover:bg-gray-100 hover:text-[red] p-2 rounded-xl">My Account</a>
+            <a href="#" class="hover:bg-gray-100 hover:text-[red] p-2 rounded-xl">Support</a>
+        </nav>
+        <div class="lg:flex items-center gap-20 p-2 hidden">
+            <button class="bg-red-500 rounded-xl px-8 py-3 text-white font-bold">Order Now</button>
+            <i class="bi bi-cart3 text-red-500 text-2xl"></i>
+        </div>
+        <div class="text-red-500 text-3xl lg:hidden">
+            <button><i class="bi bi-list"></i></button>
+        </div>
+    </header>
+
+    <!--The Header section ends here-->
+
+    <!--The Hero section starts here-->
+    <section class=" h-[85vh] flex flex-col md:flex-row justify-between items-center">
+        <div class=" text-red-500 flex flex-col  justify-center gap-5 p-15 md:w-[50%]">
+            <h3 class="text-3xl font-semibold">Welcome to CRUNCHIES!</h3>
+            <h1 class="font-bold lg:text-8xl text-5xl">Taste the difference...</h1>
+            <p class="text-2xl font-semibold">How would you like to receive your orders?</p>
+            <div class="flex gap-10">
+                <button class="bg-red-600 text-white px-15 py-6 font-bold rounded-xl"><i
+                        class="bi bi-truck text-3xl flex justify-center gap-8"></i>DELIVERY</button>
+                <button class="bg-red-600 text-white px-15 py-6 font-bold rounded-xl"><i
+                        class="bi bi-bag-check-fill text-3xl flex justify-center gap-8"></i>PICKUP</button>
+            </div>
+        </div>
+        <div>
+            <img src="/image/cruch.webp" alt="A Lady eating popcorn" width="1100px" height="1100px">
+        </div>
+    </section>
+    <!--The Hero section ends here-->
+
+    <!-- Discover Menu starts here-->
+
+    <section class="flex flex-col items-center mt-20">
+        <h1 class="text-red-500 text-center font-bold text-5xl w-fit">
+            Discover our Menu</h1>
+        <div class="rounded-xl border-5 border-red-500 w-[6%] mt-4"></div>
+        <section class="mt-9 text-center grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
+            <div
+                class="w-70 h-40 bg-[url('/image/food.jpg')] rounded-xl bg-center bg-no-repeat bg-cover flex items-end">
+                <p class="font-semibold text-white text-4xl mb-3 ml-3">Food</p>
+            </div>
+            <div class="w-70 h-40 bg-[url('/image/pp.jpg')] rounded-xl bg-center bg-no-repeat bg-cover flex items-end">
+                <p class="font-semibold text-white text-4xl mb-3 ml-3">Protein</p>
+            </div>
+            <div
+                class="w-70 h-40 bg-[url('/image/Pastries-min_ov0lj2.jpg')] rounded-xl bg-center bg-no-repeat bg-cover flex items-end">
+                <p class="font-semibold text-white text-4xl mb-3 ml-3">Pasteries</p>
+            </div>
+            <div
+                class="w-70 h-40 bg-[url('/image/Cakes-min_rgqujz.jpg')] rounded-xl bg-center bg-no-repeat bg-cover flex items-end">
+                <p class="font-semibold text-white text-4xl mb-3 ml-3">Cake</p>
+            </div>
+            <div
+                class="w-70 h-40 bg-[url('/image/Sharwama-min_botuhf.jpg')] rounded-xl bg-center bg-no-repeat bg-cover flex items-end">
+                <p class="font-semibold text-white text-4xl mb-3 ml-3">Shawarma</p>
+            </div>
+            <div
+                class="w-70 h-40 bg-[url('/image/Bread-min_brgaeo.jpg')] rounded-xl bg-center bg-no-repeat bg-cover flex items-end">
+                <p class="font-semibold text-white text-4xl mb-3 ml-3">Bread</p>
+            </div>
+
+        </section>
+        <button class="bg-red-500 text-white px-7 py-3 rounded-lg mt-10 font-bold"> <i
+                class="bi bi-cup-hot-fill text-xl"></i>
+            See more</button>
+    </section>
+    <!-- Discover Menu ends here-->
+
+    <!--Adverts order on the go-->
+    <section class="bg-red-600 h-[50vh] mt-20 flex justify-center">
+        <div class=" bg-[url('/image/phone-2.webp')] bg-no-repeat bg-cover bg-top h-[50vh] w-[22vw]">
+        </div>
+        <div class="flex flex-col gap-5 justify-center w-[30%]">
+            <h1 class="font-bold text-5xl text-white">Order on the <br> Go!</h1>
+            <p class="font-semibold text-white">Our mobile apps are now available on your device's app store</p>
+            <div class="flex justify-start gap-10">
+                <button class="bg-black px-5 py-2 text-white rounded-xl"> <i
+                        class="bi bi-google-play text-xl"></i>Android App
+                    on <br> <span class="font-bold text-2xl">
+                        Google
+                        Play</span></button>
+                <button class="bg-black px-7 py-2 text-white rounded-xl"><i class="bi bi-apple text-xl"></i> Download on
+                    the<br>
+                    <span class="font-bold text-2xl">
+                        App
+                        Store</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!--Adverts order on the go ends here-->
+
+    <!--About us starts here-->
+    <section>
+        <div class="flex flex-col items-center">
+            <h1 class="font-bold text-5xl text-center text-red-500 mt-20">About Us</h1>
+            <div class="rounded-xl w-[4%] mt-4 border-5 border-red-500"></div>
+        </div>
+        <section class="flex justify-center gap-10 ml-30 mt-20">
+            <div class="w-[500px]">
+                <p class="text-xl">Crunchies Fried Chicken is a first-grade quick service restaurant
+                    that offers a
+                    variety of quality
+                    fast food products and first-class services.
+                    We are currently spread across the South-South, South-East and South-West regions of Nigeria, with
+                    over 20 years of experience. <br><br>
+                    We have carved the niche of excellence in the fast food market with a service per excellence
+                    acquired from interacting with our valued customers.
+                </p>
+                <button class="bg-red-500 text-white px-7 py-3 rounded-lg mt-10 font-bold"><i
+                        class="bi bi-send-arrow-up text-xl"></i> Read more</button>
+            </div>
+            <div class="w-[40%]">
+                <img class="rounded-xl" src="/image/About.webp" alt="Picture of crunches hub" width="550px"
+                    height="550px">
+            </div>
+        </section>
+    </section>
+    <!--About us ends here-->
+
+    <!--Gallery starts here-->
+    <section class="bg-pink-200 h-[130vh] mt-30 p-20">
+        <section class="flex justify-center gap-10 mt-10">
+            <div class="">
+                <img src="/image/offers.webp" alt="offers image" width="450">
+            </div>
+            <div class="">
+                <img src="/image/fanclub.webp" alt="offers image" width="450">
+            </div>
+        </section>
+        <section class="flex justify-center gap-10 mt-10">
+            <div class="">
+                <img src="/image/careers.webp" alt="offers image" width="450">
+            </div>
+            <div class="">
+                <img src="/image/blog.webp" alt="offers image" width="450">
+            </div>
+        </section>
+    </section>
+    <!--Gallery ends here-->
+
+    <!--Newsletter starts here-->
+    <section class="bg-pink-100 h-[70vh]">
+        <section class=" flex flex-col items-center gap-5">
+            <div
+                class=" text-white w-50 h-50 bg-[url('/image/newsletter.webp')] bg-cover bg-no-repeat bg-center rounded-full mt-10">
+            </div>
+            <h1 class="font-bold text-4xl">Subscribe to our Newsletter</h1>
+            <p class="">Be the first to get lucky on our amazing offers</p>
+            </div>
+        </section>
+        <div class="w-[60%] mx-100 mt-5">
+            <input class="bg-white rounded-full py-5 px-10 border-x-0 w-[70%] ml-20" type="email"
+                placeholder="Email Address">
+            <button class="bg-red-600 text-white py-4 px-8 rounded-full relative right-45 z-1">Subscribe Now</button>
+        </div>
+    </section>
+    <!--Newsletter ends here-->
+
+    <!--Footer starts here-->
+
+    <footer class="bg-red-600 h-[82vh] text-white flex lg:justify-around flex-wrap ">
+        <div class="flex flex-col gap-10 justify-center w-[20%]">
+            <img src="/image/logo-white.webp" alt="Official Logo" width="200" height="200">
+            <div>
+                <h1 class="font-bold text-4xl">Opening Hours</h1><br>
+                <p class="tracking-wide  text-lg">Mondays to Sundays</p>
+                <p class="tracking-wide  text-lg">7:00 AM to 9:00 PM</p>
+            </div>
+            <div class="flex flex-col gap-3">
+                <h1 class="font-bold text-4xl">Contact Us</h1>
+                <p class="tracking-wide  text-lg">customercare@crunchiesonline.com</p>
+                <p class="tracking-wide  text-lg">09062439146, 08098242522</p>
+            </div>
+
+        </div>
+
+        <div class="flex flex-col gap-20 justify-center">
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-4xl">Quick Navigation</h1>
+                <p class="tracking-wide  text-lg">Careers</p>
+                <p class="tracking-wide  text-lg">Fan Club</p>
+                <p class="tracking-wide  text-lg">Offers</p>
+                <p class="tracking-wide  text-lg">Privacy Policy</p>
+                <p class="tracking-wide  text-lg">Terms and Conditions</p>
+            </div>
+
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-4xl">Find Us Here</h1>
+                <div class="flex gap-5">
+                    <span class="text-2xl"><i class="bi bi-instagram"></i></span>
+                    <span class="text-2xl"><i class="bi bi-facebook"></i></span>
+                    <span class="text-2xl"><i class="bi bi-linkedin"></i></span>
+                    <span class="text-2xl"><i class="bi bi-twitter-x"></i></span>
+                    <span class="text-2xl"><i class="bi bi-tiktok"></i></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex flex-col gap-8 mt-32">
+            <h1 class="font-bold text-4xl">Tell us how we're doing...</h1>
+            <p class="tracking-wide  text-lg">Your feedback is valuable to us.</p>
+            <div>
+                <button class="bg-white px-8 py-4 rounded-full text-red-600 text-xl">Submit feedback
+                    <i class="bi bi-stars text-xl"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-red-600 text-white fixed right-3 bottom-10 py-3 px-7 rounded-full">
+        <span><i class="bi bi-star-half"></i> Earn Loyalty Points</span>
+    </div>
+
+    <!--Footer ends here-->
+</body>
+
+</html>
